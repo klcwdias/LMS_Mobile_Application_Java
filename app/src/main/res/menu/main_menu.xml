@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/Dashboard"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dashboard"
+        />
+
+    <item android:id="@+id/lecturematerial"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Lecture Materials"
+        />
+
+    <item android:id="@+id/lectureshedules"
+        android:icon="@drawable/ic_baseline_calendar_month_24"
+        android:title="Lecture Shedules"
+        />
+
+    <item android:id="@+id/grades"
+        android:icon="@drawable/ic_baseline_stacked_line_chart_24"
+        android:title="Grades"
+        />
+
+</group>
+
+
+<item android:title="profile">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="logout"
+                />
+        </group>
+    </menu>
+</item>
+</menu>
